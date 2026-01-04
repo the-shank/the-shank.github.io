@@ -2,9 +2,13 @@
 ---
 @import "{{ site.theme }}";
 
+/* 1. Load JetBrains Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
+
 /* Option A: Reduce font size for the WHOLE site */
 body {
   font-size: 14px; /* Default is 16px */
+  font-family: 'JetBrains Mono', monospace;
 }
 
 pre {
@@ -15,6 +19,14 @@ pre {
 /* The Hacker theme wraps content in a 'container' class */
 .container p {
   font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#main_content h1, h2, h3, h4, h5, h6, code, pre {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Reduce headings by approx 10% */
