@@ -1,0 +1,14 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Option A: Reduce font size for the WHOLE site */
+body {
+  font-size: 14px; /* Default is 16px */
+}
+
+/* Option B: Reduce font size ONLY inside posts */
+/* The Hacker theme wraps content in a 'container' class */
+.container p {
+  font-size: 14px;
+}
