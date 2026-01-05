@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 title: Shank's homepage
 description: cat /dev/urandom
 remote_theme: pages-themes/hacker@v0.2.0
